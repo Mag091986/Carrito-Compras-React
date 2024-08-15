@@ -1,6 +1,5 @@
 import { useState } from "react"
 import '../styles/card.css'
-import '../styles/Searchbox.css'
 
 export const Card = ({ imagen, titulo, descripcion, precio, handleAgregar, handleQuitar, handleAumentar, handleDisminuir }) => {
 
